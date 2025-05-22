@@ -1,0 +1,2904 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <title>Whitepaper  MONK </title>
+    <meta name="robots" content="max-image-preview:large" />
+    <style>
+      img:is([sizes="auto" i], [sizes^="auto," i]) {
+        contain-intrinsic-size: 3000px 1500px;
+      }
+    </style>
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="MONK - The Truth is in the Chain � Feed"
+      href="https://crimechain.ai/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="MONK - The Truth is in the Chain � Comments Feed"
+      href="https://crimechain.ai/comments/feed/"
+    />
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/crimechain.ai\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\ud83d\udd25",
+                "\ud83d\udc26\u200b\ud83d\udd25"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+      /* ]]> */
+    </script>
+    <style id="wp-emoji-styles-inline-css" type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="../wp-includes/css/dist/block-library/style.min_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-block-library-theme-inline-css" type="text/css">
+      .wp-block-audio :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-audio :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-audio {
+        margin: 0 0 1em;
+      }
+      .wp-block-code {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: Menlo, Consolas, monaco, monospace;
+        padding: 0.8em 1em;
+      }
+      .wp-block-embed :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-embed :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-embed {
+        margin: 0 0 1em;
+      }
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .blocks-gallery-caption {
+        color: #ffffffa6;
+      }
+      :root :where(.wp-block-image figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme :root :where(.wp-block-image figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-image {
+        margin: 0 0 1em;
+      }
+      .wp-block-pullquote {
+        border-bottom: 4px solid;
+        border-top: 4px solid;
+        color: currentColor;
+        margin-bottom: 1.75em;
+      }
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer,
+      .wp-block-pullquote__citation {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        text-transform: uppercase;
+      }
+      .wp-block-quote {
+        border-left: 0.25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em;
+      }
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        position: relative;
+      }
+      .wp-block-quote:where(.has-text-align-right) {
+        border-left: none;
+        border-right: 0.25em solid;
+        padding-left: 0;
+        padding-right: 1em;
+      }
+      .wp-block-quote:where(.has-text-align-center) {
+        border: none;
+        padding-left: 0;
+      }
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote:where(.is-style-plain) {
+        border: none;
+      }
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: 0.375em 0.625em;
+      }
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em;
+      }
+      .wp-block-separator.has-css-opacity {
+        opacity: 0.4;
+      }
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .wp-block-separator.has-alpha-channel-opacity {
+        opacity: 1;
+      }
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px;
+      }
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px;
+      }
+      .wp-block-separator.has-background:not(.is-style-wide):not(
+          .is-style-dots
+        ) {
+        height: 2px;
+      }
+      .wp-block-table {
+        margin: 0 0 1em;
+      }
+      .wp-block-table td,
+      .wp-block-table th {
+        word-break: normal;
+      }
+      .wp-block-table :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-table :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-video :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-video :where(figcaption) {
+        color: #ffffffa6;
+      }
+      .wp-block-video {
+        margin: 0 0 1em;
+      }
+      :root :where(.wp-block-template-part.has-background) {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="../wp-content/plugins/contact-form-7/includes/css/styles_ver%3D6.0.6.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-custom-css"
+      href="../wp-content/themes/nerko/assets/css/nerko-custom_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <style id="nerko-custom-inline-css" type="text/css">
+      html:root {
+        --tg-theme-primary: #741ff5;
+      }
+      html:root {
+        --tg-theme-secondary: #e348ff;
+      }
+      html:root {
+        --tg-gradient-1: #2600fc;
+      }
+      html:root {
+        --tg-gradient-2: #ff00ea;
+      }
+      [tg-theme="dark"] body,
+      [tg-theme="dark"] .tgmobile__menu-box,
+      [tg-theme="dark"] .connect__modal .modal-content,
+      [tg-theme="dark"] .modal-backdrop,
+      [tg-theme="dark"] .sticky-menu::after {
+        background-color: #0f051d !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="../wp-content/themes/nerko/assets/css/bootstrap.min_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="animate-css"
+      href="../wp-content/themes/nerko/assets/css/animate.min_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-fontAwesome-css"
+      href="../wp-content/themes/nerko/assets/css/fontawesome-all.min_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-bundle-css"
+      href="../wp-content/themes/nerko/assets/css/swiper-bundle.min_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-icons-css"
+      href="../wp-content/themes/nerko/assets/css/default-icons_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="unicons-css"
+      href="../wp-content/themes/nerko/assets/css/unicons_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-fonts-css"
+      href="../wp-content/themes/nerko/assets/css/fonts_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-spacing-css"
+      href="../wp-content/themes/nerko/assets/css/spacing_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-core-css"
+      href="../wp-content/themes/nerko/assets/css/nerko-core_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-unit-css"
+      href="../wp-content/themes/nerko/assets/css/nerko-unit_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-style-css"
+      href="../wp-content/themes/nerko/style_ver%3D6.8.1.css"
+      type="text/css"
+      media="all"
+    />
+    <script type="text/javascript" id="breeze-prefetch-js-extra">
+      /* <![CDATA[ */
+      var breeze_prefetch = {
+        local_url: "https:\/\/crimechain.ai",
+        ignore_remote_prefetch: "1",
+        ignore_list: ["wp-admin", "wp-login.php"],
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="../wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min_ver%3D2.2.9.js"
+      id="breeze-prefetch-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/jquery/jquery.min_ver%3D3.7.1.js"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/jquery/jquery-migrate.min_ver%3D3.4.1.js"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/tg-page-head_ver%3D6.8.1.js"
+      id="tg-page-head-js"
+    ></script>
+
+    <!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+    <!-- Google Analytics snippet added by Site Kit -->
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=GT-NMC8M2R5"
+      id="google_gtagjs-js"
+      async=""
+    ></script>
+    <script type="text/javascript" id="google_gtagjs-js-after">
+      /* <![CDATA[ */
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("set", "linker", { domains: ["crimechain.ai"] });
+      gtag("js", new Date());
+      gtag("set", "developer_id.dZTNiMT", true);
+      gtag("config", "GT-NMC8M2R5");
+      window._googlesitekit = window._googlesitekit || {};
+      window._googlesitekit.throttledEvents = [];
+      window._googlesitekit.gtagEvent = (name, data) => {
+        var key = JSON.stringify({ name, data });
+        if (!!window._googlesitekit.throttledEvents[key]) {
+          return;
+        }
+        window._googlesitekit.throttledEvents[key] = true;
+        setTimeout(() => {
+          delete window._googlesitekit.throttledEvents[key];
+        }, 5);
+        gtag("event", name, { ...data, event_source: "site-kit" });
+      };
+      /* ]]> */
+    </script>
+
+    <!-- End Google tag (gtag.js) snippet added by Site Kit -->
+    <link rel="https://api.w.org/" href="https://crimechain.ai/wp-json/" />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="https://crimechain.ai/wp-json/wp/v2/pages/916"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://crimechain.ai/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.8.1" />
+    <link rel="canonical" href="https://crimechain.ai/whitepaper/" />
+    <link rel="shortlink" href="https://crimechain.ai/?p=916" />
+    <link
+      rel="alternate"
+      title="oEmbed (JSON)"
+      type="application/json+oembed"
+      href="https://crimechain.ai/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcrimechain.ai%2Fwhitepaper%2F"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (XML)"
+      type="text/xml+oembed"
+      href="https://crimechain.ai/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcrimechain.ai%2Fwhitepaper%2F&format=xml"
+    />
+    <meta name="generator" content="Site Kit by Google 1.150.0" />
+    <meta
+      name="generator"
+      content="Elementor 3.25.11; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap"
+    />
+    <style>
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
+        * {
+        background-image: none !important;
+      }
+      @media screen and (max-height: 1024px) {
+        .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          ),
+        .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          )
+          * {
+          background-image: none !important;
+        }
+      }
+      @media screen and (max-height: 640px) {
+        .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          ),
+        .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          )
+          * {
+          background-image: none !important;
+        }
+      }
+    </style>
+    <link
+      rel="icon"
+      href="../wp-content/uploads/2025/02/logo.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="../wp-content/uploads/2025/02/logo.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="../wp-content/uploads/2025/02/logo.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="../wp-content/uploads/2025/02/logo.png"
+    />
+    <style type="text/css" id="wp-custom-css">
+      .elementor-kit-7 h2 {
+        font-family: "ariel", Sans-serif;
+        font-size: 20px;
+      }
+      .elementor-kit-7 h3 {
+        font-family: "arial", Sans-serif;
+        font-size: 20px;
+        ight: 100;
+        line-height: 39px;
+        letter-spacing: 0px;
+        word-spacing: 3px;
+      }
+      .elementor-kit-7 h1 {
+        font-family: "Pixelify Sans", Sans-serif;
+        font-size: 50px;
+      }
+
+      .elementor-kit-7 a {
+        font-family: "Pixelify Sans", Sans-serif !important;
+        font-size: 18px;
+      }
+
+      .tgmenu__navbar-wrap ul {
+        justify-content: center;
+        margin: auto !important;
+        align-items: center;
+      }
+    </style>
+    <style id="kirki-inline-styles">
+      body {
+        font-family: Press Start 2P;
+      } /* cyrillic-ext */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nYivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nRivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* greek */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nWivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C,
+          U+038E-03A1, U+03A3-03FF;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nbivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+          U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+          U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      } /* cyrillic-ext */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nYivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      /* cyrillic */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nRivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      /* greek */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nWivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C,
+          U+038E-03A1, U+03A3-03FF;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nbivN04w.woff2)
+          format("woff2");
+        unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+          U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F,
+          U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+          U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Press Start 2P";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../wp-content/fonts/press-start-2p/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+          U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPixelify+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.7.2"
+      type="text/css"
+      media="all"
+    />
+  </head>
+
+  <body
+    class="wp-singular page-template-default page page-id-916 wp-custom-logo wp-embed-responsive wp-theme-nerko no-sidebar elementor-default elementor-kit-7"
+  >
+    <!-- Dark/Light-toggle -->
+    <div class="darkmode-trigger">
+      <label class="modeSwitch">
+        <input type="checkbox" />
+        <span class="icon"></span>
+      </label>
+    </div>
+    <!-- Dark/Light-toggle-end -->
+
+    <!-- header-area -->
+    <header>
+      <div id="sticky-header" class="tg-header__area transparent-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mobile-nav-toggler">
+                <i class="flaticon-menu-1"></i>
+              </div>
+              <div class="tgmenu__wrap">
+                <nav class="tgmenu__nav">
+                  <div class="logo">
+                    <a class="light-logo" href="/">
+                      <img
+                        src="../wp-content/uploads/2025/02/logo.png"
+                        height="auto"
+                        style="max-width: 240px"
+                        alt="Logo"
+                      />
+                    </a>
+                    <a class="dark-logo" href="/">
+                      <img
+                        src="../wp-content/uploads/2025/02/logo.png"
+                        height="auto"
+                        style="max-width: 240px"
+                        alt="Logo"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex"
+                  >
+                    <ul id="menu-main-menu" class="navigation">
+                      <li
+                        id="menu-item-65"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-65"
+                      >
+                        <a href="/#game">Game</a>
+                      </li>
+                      <li
+                        id="menu-item-717"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-717"
+                      >
+                        <a href="/#nft">Arts</a>
+                      </li>
+                      <li
+                        id="menu-item-69"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-69"
+                      >
+                        <a href="/#roadmap">Roadmap</a>
+                      </li>
+                      <li
+                        id="menu-item-718"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-718"
+                      >
+                        <a href="/#team">Team</a>
+                      </li>
+                      <li
+                        id="menu-item-719"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-719"
+                      >
+                        <a href="/#qa">Q&A</a>
+                      </li>
+                      <li
+                        id="menu-item-919"
+                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-916 current_page_item menu-item-919"
+                      >
+                        <a href="/whitepaper/" aria-current="page"
+                          >Whitepaper</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="tgmenu__action">
+                    <ul class="list-wrap">
+                      <li class="header-social">
+                        <a
+                          href="https://x.com/monkonsoll"
+                          class="d-none d-sm-block"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+
+                        <a href="https://t.me/monksolanaa"
+                          ><i class="fab fa-telegram"></i
+                        ></a>
+                      </li>
+
+                      <script>
+                        let currentState = true;
+                        const onStateChange = async (state) => {
+                          console.log(currentState, state);
+                          if (!currentState && state.isConnected) {
+                            const exists =
+                              await window.CrimeChainManager.verifyUser(
+                                "",
+                                true
+                              );
+                            if (!exists) {
+                              window.location = "/join-whitelist";
+                              return;
+                            }
+                          }
+                        };
+                        document.addEventListener("DOMContentLoaded", () => {
+                          CrimeChainManager.emitter.subscribe(
+                            "accountState",
+                            onStateChange
+                          );
+                        });
+
+                        function openModal() {
+                          currentState = CrimeChainManager.isConnected();
+                          window.CrimeChainManager.appKit.open();
+                        }
+                      </script>
+
+                      <script>
+                        document.addEventListener("DOMContentLoaded", () => {
+                          const connectButton =
+                            document.getElementById("connectWalletBtn");
+                          CrimeChainManager.emitter.subscribe(
+                            "accountState",
+                            async (state) => {
+                              if (state.isConnected) {
+                                connectButton.innerText = "Open Wallet";
+                              } else {
+                                connectButton.innerText = "Connect Wallet";
+                              }
+                            }
+                          );
+                        });
+                      </script>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+
+              <!-- Mobile Menu  -->
+              <div class="tgmobile__menu">
+                <nav class="tgmobile__menu-box">
+                  <div class="close-btn"><i class="flaticon-close-1"></i></div>
+                  <div class="nav-logo">
+                    <a class="light-logo" href="/">
+                      <img
+                        src="../wp-content/uploads/2025/02/logo.png"
+                        height="auto"
+                        style="max-width: 240px"
+                        alt="Logo"
+                      />
+                    </a>
+
+                    <a class="dark-logo" href="/">
+                      <img
+                        src="../wp-content/uploads/2025/02/logo.png"
+                        height="auto"
+                        style="max-width: 240px"
+                        alt="Logo"
+                      />
+                    </a>
+                  </div>
+                  <div class="tgmobile__menu-outer">
+                    <ul id="menu-main-menu-1" class="navigation">
+                      <li
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-65"
+                      >
+                        <a href="/#game">Game</a>
+                      </li>
+                      <li
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-717"
+                      >
+                        <a href="/#nft">Arts</a>
+                      </li>
+                      <li
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-69"
+                      >
+                        <a href="/#roadmap">Roadmap</a>
+                      </li>
+                      <li
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-718"
+                      >
+                        <a href="/#team">Team</a>
+                      </li>
+                      <li
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-719"
+                      >
+                        <a href="/#qa">Q&A</a>
+                      </li>
+                      <li
+                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-916 current_page_item menu-item-919"
+                      >
+                        <a href="/whitepaper/" aria-current="page"
+                          >Whitepaper</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="social-links">
+                    <ul class="clearfix">
+                      <li class="twitter">
+                        <a href="https://x.com/monkonsoll"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                      </li>
+
+                      <li class="telegram">
+                        <a href="https://t.me/monksolanaa"
+                          ><i class="fab fa-telegram-plane"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="tgmobile__menu-backdrop"></div>
+              <!-- End Mobile Menu -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <main class="fix">
+      <!-- gradient-position -->
+      <div class="gradient-position">
+        <img
+          src="../wp-content/themes/nerko/assets/img/others/gradient-circle.svg"
+          style="left: -4%; top: -4%"
+          width="500"
+          alt="Background Circle"
+        />
+        <img
+          src="../wp-content/themes/nerko/assets/img/others/gradient-circle.svg"
+          style="right: -4%; bottom: -4%"
+          width="500"
+          alt="Background Circle"
+        />
+      </div>
+      <!-- gradient-position-end -->
+
+      <div class="banner__background-wrap z-index-minus">
+        <div
+          class="background"
+          data-background="../wp-content/themes/nerko/assets/img/bg/gradient_bg01.png"
+        ></div>
+      </div>
+
+      <!-- breadcrumb-area -->
+      <section class="breadcrumb-area">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="breadcrumb__content">
+                <h2 class="title">Whitepaper</h2>
+                <nav aria-label="breadcrumb" class="breadcrumb"></nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- breadcrumb-area-end -->
+
+      <div class="tg-page-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="tg-page-content nerko-page-content">
+                <div class="tp-page-post">
+                  <h2><b>Introduction</b></h2>
+                  <p>
+                    The $MONK market experienced a meteoric rise, with countless
+                    projects launching under the promise of exclusive digital
+                    ownership. However, many of these projects provided neither
+                    genuine utility nor engaging experiences. They often focused
+                    on selling images or speculative futures, ultimately leaving
+                    buyers with Cards that lacked substance or long-term value.
+                    As the market corrected, confidence in Cards ventures
+                    diminished, and skepticism grew—especially among traditional
+                    gamers accustomed to high-quality, content-rich titles.
+                  </p>
+                  <p>
+                    <b>$MONK</b> takes a fundamentally different approach.
+                    Rather than promising an all-encompassing metaverse or
+                    unattainable features, our goal is straightforward yet
+                    ambitious: to deliver an
+                    <b>immersive, enjoyable detective game</b> that stands on
+                    its own merits. We incorporate $MONK in a way that
+                    meaningfully enhances the gameplay and community experience,
+                    without overshadowing the core mechanic that makes our game
+                    fun.
+                  </p>
+                  <h2><b>The Problem with Many Memecoin Projects</b></h2>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Over Promised and Under Delivered</b>: Grand visions of
+                      fully integrated Memecoin ecosystems or massive metaverses
+                      frequently fail to materialize.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Lack of Genuine Utility</b>: Countless collections
+                      launched with no actual gameplay or clear benefit for
+                      holders, leading to a glut of “empty” Cards.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Eroding Trust</b>: Repeated disappointments have caused
+                      players and investors to become wary of new Memecoin
+                      projects, especially in the gaming sector.
+                    </li>
+                  </ul>
+                  <h2><b>The $MONK Solution</b></h2>
+                  <ol>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Compelling Gameplay First</b>
+                      <ul>
+                        <li style="font-weight: 400" aria-level="2">
+                          At the heart of $MONK is a detective experience
+                          designed to captivate players. Our point-and-click
+                          investigative mechanics, anchored by the Crime Board,
+                          let you piece together clues, interact with suspects,
+                          and solve cases in your own way.
+                        </li>
+                        <li style="font-weight: 400" aria-level="2">
+                          This user-centric design ensures the game remains
+                          engaging even without $MONK ownership, emphasizing
+                          genuine playability over hype.
+                        </li>
+                      </ul>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Meaningful Blockchain Integration</b>
+                      <ul>
+                        <li style="font-weight: 400" aria-level="2">
+                          <b>Unlimited Coffee Cups</b>: $MONK holders never run
+                          out of “lives,” enabling them to experiment freely
+                          without penalty for mistakes. This mechanic doesn’t
+                          break the balance for non-holders, as the challenge
+                          remains intact, but it rewards long-term community
+                          members with a smoother experience.
+                        </li>
+                        <li style="font-weight: 400" aria-level="2">
+                          <b>Force AI Integration</b>: By “forcing” the AI to
+                          use specific $MONK cards in the storyline, holders
+                          gain a direct influence on the narrative. This creates
+                          a unique, ever-evolving dynamic for each mystery.
+                        </li>
+                        <li style="font-weight: 400" aria-level="2">
+                          <b>Community and Event Access</b>: $MONK provide entry
+                          to special events, beta releases, and
+                          behind-the-scenes content—promoting a sense of
+                          belonging within the $MONK community.
+                        </li>
+                      </ul>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Infinite Replayability through AI</b>
+                      <ul>
+                        <li style="font-weight: 400" aria-level="2">
+                          Traditional detective games often rely on static
+                          scripts or a finite number of scenarios. $MONK breaks
+                          that mold by leveraging advanced AI to generate fresh
+                          narratives every time you play.
+                        </li>
+                        <li style="font-weight: 400" aria-level="2">
+                          This cutting-edge technology ensures that no two
+                          investigations are identical, offering a novel
+                          challenge with each login. It also allows us to
+                          continually expand and refine storylines without the
+                          need for massive manual content updates.
+                        </li>
+                      </ul>
+                    </li>
+                  </ol>
+                  <h3><b>Vision and Mission</b></h3>
+                  <p>
+                    $MONK aspires to be
+                    <b>the most engaging and authentic detective game</b>
+                    available, powered by Web3 technologies that genuinely add
+                    value. Rather than contributing to $MONK market saturation,
+                    we aim to <b>elevate</b> it by setting a precedent for
+                    responsible integration, player-focused design, and ethical
+                    funding.
+                  </p>
+                  <p>
+                    By blending proven gaming mechanics with the latest in AI
+                    storytelling, $MONK offers something truly unique: a
+                    <b>game-first, $MONK-enhanced</b> experience that respects
+                    players’ time, intellect, and investment. This approach not
+                    only fosters trust in our project but also helps rebuild
+                    confidence in the broader $MONK gaming landscape.
+                  </p>
+                  <p>Ultimately, our mission is twofold:</p>
+                  <ol>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Deliver a fun and immersive investigative game</b> that
+                      stands out on its own.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b
+                        >Cultivate a passionate community of mystery
+                        enthusiasts</b
+                      >, united by meaningful $MONK ownership and shared
+                      experiences.
+                    </li>
+                  </ol>
+                  <p>
+                    Welcome to $MONK, where every case is a new opportunity to
+                    test your detective skills, and every $MONK holds the key to
+                    a more vibrant, collaborative gaming world.
+                  </p>
+                  <h2><b>Market Overview</b></h2>
+                  <h3><b>Trends Shaping the $MONK Landscape</b></h3>
+                  <p>
+                    In recent times, one of the most significant trends in the
+                    $MONK space has been the migration of projects to
+                    second-layer blockchains—such as Base. This shift is driven
+                    by the desire to reduce transaction fees, enabling users to
+                    buy, sell, and collect $MONKs without incurring prohibitive
+                    costs. For $MONK, leveraging a second-layer solution not
+                    only lowers barriers to entry but also ensures that players
+                    can fully immerse themselves in the detective experience
+                    without being deterred by high gas fees. This choice aligns
+                    with our goal of fostering genuine engagement and attracting
+                    a diverse audience driven by a love for investigative
+                    gameplay rather than mere economic incentives.
+                  </p>
+                  <h3><b>Target Audience and Market Segmentation</b></h3>
+                  <p>
+                    $MONK is designed as a free-to-play detective game that is
+                    accessible to everyone, including Web2 users. Our aim is to
+                    attract a broad spectrum of players:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Pixel Art Enthusiasts:</b> Individuals who appreciate
+                      the aesthetics of classic pixel art.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Detective and Mystery Game Fans:</b> Gamers who enjoy
+                      solving puzzles, investigating clues, and unraveling
+                      complex narratives.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>$MONK and Web3 Aficionados:</b> Early adopters and
+                      enthusiasts of blockchain technology who are interested in
+                      the utility and community aspects of $MONKs.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Classic Point-and-Click Gamers:</b> Fans of traditional
+                      point-and-click adventure games seeking a modern twist
+                      with AI-driven narratives.
+                    </li>
+                  </ul>
+                  <p>
+                    By appealing to these diverse groups, $MONK seeks to build a
+                    large, engaged community that spans various interests and
+                    technical backgrounds.
+                  </p>
+                  <h3><b>Competitor Landscape and Differentiation</b></h3>
+                  <p>
+                    While there are existing online investigation games that
+                    involve multiplayer deduction—often aimed at younger
+                    audiences and group dynamics—$MONK differentiates itself by
+                    offering a deeply personal and challenging single-player
+                    campaign. Our game centers on an intricate, narrative-driven
+                    investigation where each players experience is unique and
+                    tailored, thanks to advanced AI integration. This contrasts
+                    with games that focus primarily on group play and simplistic
+                    murder-mystery scenarios.
+                  </p>
+                  <p>
+                    Furthermore, the use of AI ensures that no two playthroughs
+                    are identical; each investigation is dynamically generated,
+                    providing fresh challenges and narratives each time. This
+                    element of infinite replayability sets $MONK apart from
+                    competitors that rely on static storylines or finite sets of
+                    puzzles.
+                  </p>
+                  <h3><b>Market Opportunity</b></h3>
+                  <p>
+                    The convergence of increased interest in $MONKs on
+                    accessible blockchains, a resurgence of appreciation for
+                    classic gaming mechanics, and the innovative use of AI to
+                    generate limitless content creates a unique market
+                    opportunity for $MONK. By focusing on quality gameplay and
+                    leveraging cutting-edge technology, we aim to address the
+                    gap in the market for a truly engaging detective game that
+                    brings together diverse user groups—from casual gamers to
+                    $MONK enthusiasts—under one immersive experience.
+                  </p>
+                  <h2><b>Gameplay </b></h2>
+                  <p>
+                    <b>Game Initiation and Setup</b><b><br /> </b>When a player
+                    accesses $MONK, the experience begins by connecting their
+                    digital wallet, especially if they own an $MONK from the
+                    project. Upon entering the platform, the player clicks on
+                    Create Game, which triggers the AI to generate a completely
+                    new investigation. The AI randomly selects a set of $MONK
+                    cards from the collection and uses them as building blocks
+                    to craft an intricate crime story. This generated narrative
+                    includes elements such as the crime itself, the crime scene,
+                    the perpetrator, witnesses, evidence, locations, and
+                    bystanders. Some cards chosen by the AI are deliberately
+                    included to add complexity and serve as distractions,
+                    creating red herrings that do not necessarily contribute to
+                    solving the case.
+                  </p>
+                  <p>
+                    <b>Dynamic World and Map</b><b><br /> </b>$MONK features a
+                    fixed map with predetermined locations. However, the
+                    characters and objects that populate these areas change with
+                    each AI-generated story, ensuring a unique experience in
+                    every playthrough. Once the AI constructs the initial
+                    narrative, the investigation begins.
+                  </p>
+                  <p>
+                    <b>Exploration and Evidence Collection</b
+                    ><b><br /> </b>Players are presented with the details of the
+                    crime they must solve. They navigate through the map,
+                    exploring various locations, searching for evidence, and
+                    interacting with non-player characters (NPCs). Each time the
+                    player encounters a character or an object of interest, a
+                    corresponding card is added to their collection. This
+                    collection represents all the clues, suspects, evidence, and
+                    related items encountered during the investigation.
+                  </p>
+                  <p>
+                    <b>Transition to the Crime Board</b><b><br /> </b>At a
+                    pivotal moment, players move from exploration to analysis by
+                    entering the Crime Board phase. Here, they open their card
+                    pack and transfer all collected cards onto the Crime Board—a
+                    flexible, open workspace where the investigator arranges and
+                    organizes their clues. As the detective, the player has
+                    complete freedom to arrange the cards in any way that makes
+                    sense to them. The board comes with minimal rules,
+                    emphasizing player autonomy in how they approach the
+                    investigation.
+                  </p>
+                  <p>
+                    <b>Connecting Clues on the Crime Board</b><b><br /> </b>Once
+                    the cards are laid out, the player begins drawing lines
+                    between cards to hypothesize connections. For example, if
+                    the player noticed a scenario where they met a model and
+                    later encountered a Volkswagen Beetle, they might connect
+                    those two cards, reasoning that the car belongs to the
+                    model. The system already knows which connections are
+                    correct, as the AI established the underlying relationships
+                    when constructing the story.
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Correct Connections:</b> When a connection is valid,
+                      the line turns green, signaling a correct deduction. This
+                      positive feedback propels the investigation forward,
+                      unlocking additional parts of the story, new clues, or
+                      areas on the map.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Incorrect Connections:</b> If the player draws a line
+                      between two unrelated cards, the line turns red. Such
+                      mistakes reflect a misstep in the investigation, costing
+                      the detective one coffee cup, which symbolizes lost time
+                      and energy, and halting the progress temporarily.
+                    </li>
+                  </ul>
+                  <p>
+                    <b>The Role of Coffee Cups</b><b><br /> </b>The game is
+                    fundamentally built around minimizing mistakes. Each error
+                    costs the player a coffee cup, which serves as a measure of
+                    the detectives energy. Free-to-play users receive a limited
+                    number of coffee cups per day (typically 3-5), representing
+                    how many mistakes they can afford before they must pause
+                    their investigation. Once their daily allotment is
+                    exhausted, players must wait until the cups recharge on the
+                    next day to continue making further mistakes. There are
+                    options to purchase additional coffee cups through one-time
+                    cryptocurrency payments. Importantly, $MONK holders enjoy
+                    unlimited coffee cups, ensuring they never run out of energy
+                    for investigation—this grants them a smoother, uninterrupted
+                    gameplay experience.
+                  </p>
+                  <p>
+                    <b>Unveiling the Mystery</b><b><br /> </b>As the player
+                    continues to connect relevant cards correctly, the
+                    investigation deepens. The dynamic narrative unfolds
+                    progressively, revealing more details about the crime.
+                    Gradually, players piece together who committed the crime,
+                    which weapon was used, and what objects or clues were
+                    instrumental in carrying out the offense. The AI
+                    occasionally designs cases with multiple culprits, enhancing
+                    complexity and replayability. Each correct deduction brings
+                    the player closer to unraveling the mystery, providing a
+                    sense of accomplishment and clarity as the truth behind the
+                    crime is progressively unveiled.
+                  </p>
+                  <h2><b>Technology and $MONK</b></h2>
+                  <p>
+                    $MONK is built on the Base blockchain, a Layer 2 solution
+                    for Ethereum, chosen specifically to minimize transaction
+                    fees and enhance user accessibility. By leveraging a
+                    second-layer blockchain, we ensure that players can interact
+                    with the game—buying, selling, and collecting $MONKs—without
+                    facing prohibitive gas costs. This decision aligns with our
+                    commitment to creating an inclusive environment where the
+                    focus remains on engaging gameplay rather than financial
+                    barriers.
+                  </p>
+                  <h3><b>$MONK Integration in the Game</b></h3>
+                  <p>
+                    $MONKs in $MONK are more than collectible assets; they serve
+                    as functional subscriptions that enhance the gameplay
+                    experience:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Unlimited Coffee Cups</b>: $MONK holders are granted
+                      unlimited coffee cups, effectively removing the daily
+                      limit on mistakes and allowing continuous, unimpeded
+                      investigation. This feature recognizes and rewards
+                      commitment, giving $MONK owners a smoother, more flexible
+                      gaming experience.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Force AI Integration</b>: Holders of $MONKs can
+                      exercise the unique ability to force the AI to incorporate
+                      specific $MONK cards into the narrative. This interaction
+                      allows them to influence the storyline, creating
+                      personalized and dynamic experiences that reflect their
+                      preferences and strategic choices.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Community and Exclusive Access</b>: Beyond gameplay
+                      advantages, $MONKs act as a membership pass to a vibrant
+                      community. Owners gain access to exclusive events, beta
+                      releases, behind-the-scenes content, and a participatory
+                      role in shaping future developments. This establishes a
+                      deeper bond between the community and the project,
+                      fostering loyalty and engagement.
+                    </li>
+                  </ul>
+                  <h3><b>$MONK Standards and Smart Contracts</b></h3>
+                  <p>$MONK uses the ERC-721 token standard for its ETH:</p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>ERC-721 Standard</b>: Each $MONK is unique,
+                      representing distinct assets within the game. The ERC-721
+                      standard provides a robust framework for creating and
+                      managing these unique tokens, ensuring compatibility with
+                      a wide range of wallets, marketplaces, and developer
+                      tools. This widespread support facilitates seamless
+                      integration and broadens the accessibility of our $MONKs
+                      to a diverse user base.
+                    </li>
+                  </ul>
+                  <h3><b>Smart Contract Design and Security</b></h3>
+                  <p>
+                    To ensure reliability and security, $MONK follows industry
+                    best practices in smart contract development:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Development Framework</b>: We use well-established
+                      libraries such as OpenZeppelin to build our smart
+                      contracts. This ensures that our contracts are based on
+                      thoroughly vetted code, reducing the likelihood of
+                      vulnerabilities.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Rigorous Testing</b>: Comprehensive unit and
+                      integration tests are conducted to validate contract
+                      behavior in various scenarios, including edge cases. This
+                      robust testing regime helps guarantee that the contracts
+                      function as intended under all circumstances.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Deployment Strategy</b>: Our contracts will first be
+                      deployed on a testnet environment to simulate real-world
+                      interactions and identify issues before moving to the live
+                      network. Once the smart contracts are proven stable, they
+                      will be deployed on the Base mainnet, with proxy patterns
+                      in place to facilitate future upgrades without disrupting
+                      user assets.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Bug Bounty Program</b>: Post-deployment, we plan to
+                      establish a bug bounty program, incentivizing community
+                      and security researchers to identify and report potential
+                      vulnerabilities. This proactive approach ensures
+                      continuous improvement and maintains the integrity of our
+                      smart contracts over time.
+                    </li>
+                  </ul>
+                  <h3><b>Future-Proofing and Scalability</b></h3>
+                  <p>
+                    By choosing the Base blockchain and adhering to the ERC-721
+                    standard, $MONK ensures scalability, low transaction costs,
+                    and a future-proof foundation. As the project evolves, our
+                    smart contract architecture—including the potential use of
+                    proxy patterns—allows for seamless updates and enhancements,
+                    adapting to new requirements and technological advancements
+                    without compromising security or user experience.
+                  </p>
+                  <p>
+                    This section on <b>Technology and $MONK</b> outlines our
+                    strategic choices in blockchain selection, $MONK standards,
+                    and smart contract development. By prioritizing user
+                    experience, security, and scalability, $MONK lays a robust
+                    technical foundation for an engaging and trustworthy
+                    detective game.
+                  </p>
+                  <h2><b>AI Integration</b></h2>
+                  <p>
+                    $MONK leverages advanced artificial intelligence to
+                    dynamically generate unique and engaging investigative
+                    experiences for players. The AI system is activated prior to
+                    the start of each game, setting the foundation for a fresh
+                    narrative every time a new investigation is created.
+                  </p>
+                  <h3><b>How AI Shapes the Investigation</b></h3>
+                  <p>
+                    Before a game begins, the AI randomly selects a set of $MONK
+                    cards from the collection to serve as the narrative’s
+                    building blocks. Using these selected cards, the AI
+                    constructs an intricate crime story that ties together
+                    various elements:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Characters</b>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Animals</b>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Weapons</b>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Transportation</b>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Objects</b>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Documents</b>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Food & Drinks</b>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Clothing & Jewelry</b>
+                    </li>
+                  </ul>
+                  <p>
+                    By establishing logical connections between these cards, the
+                    AI creates a coherent plot that underpins the investigation.
+                    It determines plausible relationships and scenarios
+                    involving the chosen elements, weaving them into a storyline
+                    that the player will eventually unravel.
+                  </p>
+                  <h3><b>Dynamic World and Character Interaction</b></h3>
+                  <p>
+                    Once the story is generated, the AI populates the game world
+                    with these cards. As players explore the map:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Gradual Revelation of Clues</b>: The relevant cards and
+                      clues are gradually revealed on the map as the
+                      investigation progresses. The AI controls the distribution
+                      of these cards, ensuring that the game pace remains
+                      challenging and engaging.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Character Encounters</b>: The AI strategically places
+                      character cards throughout the map. When a player
+                      encounters a character, the AI facilitates dynamic
+                      dialogue based on the overarching story. It assesses each
+                      characters reliability—deciding whether they are honest or
+                      deceitful—and tailors their dialogue accordingly, adding
+                      depth and realism to interactions.
+                    </li>
+                  </ul>
+                  <h3><b>Technological Backbone</b></h3>
+                  <p>
+                    The AI system is built using cutting-edge APIs and
+                    integrated technologies that represent the most advanced
+                    solutions available on the market. This approach ensures
+                    that:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>High-Quality Story Generation</b>: The AI produces
+                      complex and varied narratives that keep players engaged,
+                      with each playthrough offering a distinct experience.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Scalability and Adaptability</b>: As new AI
+                      technologies and methodologies emerge, the system is
+                      designed to integrate these improvements, continually
+                      refining its storytelling capabilities.
+                    </li>
+                  </ul>
+                  <h3><b>Continuous Improvement and Community Feedback</b></h3>
+                  <p>
+                    $MONK is committed to an ongoing process of refinement and
+                    enhancement:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Staying Current with Technological Advances</b>: The
+                      development team consistently updates the AI system to
+                      incorporate the latest innovations, enhancing the games
+                      quality and the richness of its narratives.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Community Involvement</b>: A vital component of the
+                      projects philosophy is engaging with the community.
+                      Feedback, ideas, and suggestions from players and partners
+                      play a crucial role in shaping future updates and
+                      features. This collaborative approach ensures that the
+                      game evolves in line with player expectations and
+                      technological progress.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Ongoing Development</b>: Recognizing that the project
+                      is never truly finished, the team maintains a roadmap of
+                      continuous improvements. The AI will keep receiving
+                      updates to refine its storytelling, dialogue generation,
+                      and overall performance, adapting to new trends and
+                      community needs.
+                    </li>
+                  </ul>
+                  <p>
+                    By harnessing the power of AI in this manner, $MONK offers a
+                    deeply immersive and ever-evolving detective experience. The
+                    system’s ability to generate endless unique stories not only
+                    enhances replayability but also ensures that each
+                    investigation feels personal and unpredictable, cementing
+                    the game’s place at the forefront of innovative,
+                    player-driven narratives.
+                  </p>
+                  <h2><b>Tokenomics</b></h2>
+                  <p>
+                    Currently, $MONK does not plan to issue a dedicated in-game
+                    token. All transactions within the game—such as purchasing
+                    additional coffee cups—will be conducted using existing
+                    cryptocurrencies. By relying on established crypto assets,
+                    we streamline the user experience, leveraging familiar
+                    payment methods without adding complexity or fragmentation
+                    through a new token.
+                  </p>
+                  <p>
+                    While there is no proprietary token at this stage, the team
+                    remains open to future developments. Should the ecosystem
+                    expand to include additional games or services, we may
+                    consider creating a unifying token to bring together various
+                    projects under one economic framework. This potential token
+                    would aim to facilitate seamless interactions across the
+                    broader $MONK ecosystem, incentivize community engagement,
+                    and simplify transactions between related ventures.
+                  </p>
+                  <p>
+                    For now, our focus is on delivering a robust, engaging
+                    gaming experience using existing cryptocurrencies for all
+                    transactional needs, ensuring ease of use and minimizing
+                    barriers for our players.
+                  </p>
+                  <h2><b>Economic Model and Revenue/Trading Mechanisms</b></h2>
+                  <p>
+                    $MONK is not designed as a play-to-earn game in its initial
+                    phase. Instead, the economic model focuses on leveraging
+                    $MONKs as a means of fundraising and community building,
+                    rather than as a direct revenue stream for players within
+                    the game. The primary revenue mechanisms and economic
+                    interactions are structured as follows:
+                  </p>
+                  <h3><b>Primary Economic Mechanics</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>$MONK as a Fundraising and Community Tool</b>:<br />
+                      The sale of $MONKs serves as the primary method for
+                      raising the necessary funds to develop and sustain the
+                      project. Each $MONK not only represents a unique
+                      collectible asset but also provides valuable in-game
+                      benefits, such as unlimited coffee cups and the ability to
+                      influence the AI-generated narrative. This approach
+                      ensures that the community of $MONK holders drives the
+                      growth and vitality of the game.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Revenue from In-Game Purchases</b>:<br />
+                      In the initial phase, free-to-play users may purchase
+                      additional coffee cups using existing cryptocurrencies.
+                      These purchases serve as a revenue stream for the project
+                      while allowing players who do not own $MONKs to continue
+                      enjoying the game. The system is designed such that $MONK
+                      holders do not need to make additional in-game purchases
+                      for coffee cups or other related benefits, providing them
+                      with a seamless and enhanced gaming experience.
+                    </li>
+                  </ul>
+                  <h3><b>Future Economic Considerations</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Potential for Additional Monetization</b>:<br />
+                      At present, there are no immediate plans to introduce
+                      additional revenue mechanisms such as in-game asset sales,
+                      subscriptions, or a play-to-earn model. The focus remains
+                      on generating revenue through the sale of $MONKs and
+                      optional in-game purchases (e.g., buying coffee cups) for
+                      non-$MONK holders.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Long-Term Vision</b>:<br />
+                      While the current model does not incorporate complex
+                      economic features or play-to-earn mechanics, future
+                      iterations of $MONK may explore new monetization
+                      strategies as the project expands. Any considerations for
+                      additional revenue streams or economic models will be
+                      driven by community feedback, market trends, and the
+                      evolving needs of the player base. The team remains open
+                      to integrating new features that enhance gameplay and
+                      economic opportunity without compromising the core
+                      detective experience.
+                    </li>
+                  </ul>
+                  <h3><b>Summary of Economic Model</b></h3>
+                  <p>
+                    In summary, $MONK’s economic model in its initial phase is
+                    centered around:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      Using $MONK sales as a primary fundraising and
+                      community-building tool.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Offering free-to-play access with optional purchases of
+                      in-game items like coffee cups for users without $MONKs.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Ensuring that $MONK holders receive uninterrupted
+                      benefits, eliminating the need for further purchases
+                      within the game.
+                    </li>
+                  </ul>
+                  <p>
+                    This approach allows $MONK to maintain a balanced and
+                    engaging experience for all players while leveraging $MONK
+                    technology to fund development and foster a dedicated
+                    community. Future enhancements to the economic model will be
+                    carefully considered and aligned with the overall mission of
+                    delivering an authentic and immersive detective game.
+                  </p>
+                  <h2><b>Roadmap</b></h2>
+                  <p>
+                    $MONKs development and launch strategy is structured across
+                    several key phases, outlining clear milestones and
+                    objectives. Below is the detailed roadmap, spanning from
+                    early concept development through to the full release of the
+                    game:
+                  </p>
+                  <p><b>Q1 2025</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      Develop the game concept and build a community through
+                      various platforms and early access initiatives.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Launch the official project website to serve as the
+                      central hub for information and updates.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Open social channels on Twitter, Discord, Instagram, and
+                      other platforms to engage with potential players and
+                      stakeholders.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Initiate Whitelist registration for early supporters,
+                      allowing them to secure benefits and early access
+                      privileges.
+                    </li>
+                  </ul>
+                  <p><b>Q2 2025</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      Prepare for the 8,000 Mystery $MONK drop by setting up the
+                      necessary technical infrastructure and executing community
+                      campaigns.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Develop and audit secure smart contracts on the Base
+                      blockchain to support $MONK transactions and integrations.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Create placeholder visuals for the Mystery $MONKs to
+                      generate anticipation and gather community feedback.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Collaborate with influencers and run targeted marketing
+                      campaigns to increase visibility and engagement.
+                    </li>
+                  </ul>
+                  <p><b>Q3 2025</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      Execute the drop of the 8,000 Mystery $MONKs, unveiling
+                      their unique designs with finalized visuals.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Distribute the 8,000 Mystery $MONK cards to early access
+                      participants and the broader community.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Provide early access to Whitelist members, followed by a
+                      public sale to widen availability.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Reveal all $MONKs and update their metadata as needed to
+                      reflect their roles and attributes within the game.
+                    </li>
+                  </ul>
+                  <p><b>Q4 2025</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      Develop the core game mechanics and integrate the $MONK
+                      cards into the gameplay experience.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Build and refine AI systems responsible for dynamically
+                      creating storylines using the $MONK cards.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Design the games maps, locations, and interactive elements
+                      to ensure a rich and immersive environment.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Implement the foundational mechanics of the game,
+                      including the Crime Board and related investigative
+                      features.
+                    </li>
+                  </ul>
+                  <p><b>Q2 2026</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      Refine the game through extensive beta testing,
+                      incorporating feedback to polish the final experience.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Launch a closed beta exclusively for $MONK holders,
+                      offering them a first look at the complete system and
+                      gathering critical user insights.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Collect player feedback to optimize game mechanics, AI
+                      performance, and overall user experience.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      Officially launch the complete $MONK game, delivering a
+                      fully-realized, dynamic detective experience to the
+                      public.
+                    </li>
+                  </ul>
+                  <p>
+                    This roadmap outlines our phased approach to building and
+                    launching $MONK, emphasizing community involvement,
+                    technical rigor, and iterative development to create a
+                    compelling and sustainable gaming ecosystem.
+                  </p>
+                  <h2><b>Team</b></h2>
+                  <p>
+                    $MONK is powered by a diverse and experienced team, each
+                    bringing unique skills and deep expertise to the project.
+                    Our teams collective experience spans blockchain technology,
+                    software development, AI artistry, and marketing, ensuring a
+                    robust foundation for the games success.
+                  </p>
+                  <p><b>Dan – Founder & Project Manager</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Role</b>: Founder and Director of $MONK
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Experience</b>: Over 6 years in the crypto world,
+                      having led numerous successful projects.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Expertise</b>: Inventor of the unique game mechanics
+                      behind $MONK. Passionate about technological innovations,
+                      crypto, and Web3, Dan combines his love for detective and
+                      mystery games with advanced blockchain development to
+                      steer the project.
+                    </li>
+                  </ul>
+                  <p><b>Roman – Lead Developer</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Role</b>: Programmer
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Experience</b>: Extensive software development
+                      background with a proven track record of building complex
+                      systems that exceed the requirements of $MONK.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Past Work</b>: Contributed to high-level feature
+                      development at companies like Wix and ironSource, where he
+                      specialized in intricate programming tasks.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Expertise</b>: Deep knowledge of crypto wallets,
+                      blockchain integrations, and advanced software engineering
+                      principles.
+                    </li>
+                  </ul>
+                  <p><b>Ali – Web3 Expert</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Role</b>: Web3 Advisor
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Experience</b>: Many years of hands-on experience in
+                      the crypto space.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Expertise</b>: Offers up-to-date insights on the latest
+                      projects and trends in the crypto ecosystem. Ali advises
+                      $MONK on Web3 strategies, ensuring the project remains
+                      current with industry advancements and best practices.
+                    </li>
+                  </ul>
+                  <p><b>Elliot – AI Artist & Graphic Designer</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Role</b>: AI Artist and Graphic Designer
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Experience</b>: Expert in creating advanced
+                      AI-generated artwork and understanding optimal utilization
+                      of AI tools.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Expertise</b>: Skilled in prompt engineering for AI art
+                      generation, professional editing using AI tools, and
+                      traditional graphic design software. Elliot brings visual
+                      depth and creativity to $MONK, crafting compelling artwork
+                      that enhances the gaming experience.
+                    </li>
+                  </ul>
+                  <p><b>Eugene – Marketing & Community Manager</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Role</b>: Marketing & Community Management Lead
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Experience</b>: Over 7 years of experience in Crypto
+                      Marketing with a deep understanding of the Web3 industry.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Achievements</b>:
+                      <ul>
+                        <li style="font-weight: 400" aria-level="2">
+                          Specializes in community building for Meme coins,
+                          DeFi, $MONK, GameFi, CEX, and DEX.
+                        </li>
+                        <li style="font-weight: 400" aria-level="2">
+                          Completed 127 projects and helped raise 88 million in
+                          funding.
+                        </li>
+                      </ul>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Expertise</b>:
+                      <ul>
+                        <li style="font-weight: 400" aria-level="2">
+                          Marketing Planning, Crowd and Guerilla Marketing.
+                        </li>
+                        <li style="font-weight: 400" aria-level="2">
+                          Expertise in Discord and Telegram community
+                          management, Social Media Marketing.
+                        </li>
+                        <li style="font-weight: 400" aria-level="2">
+                          Proficient with Zealy, Galxe, Gleam campaigns, and
+                          Influencer Marketing.
+                        </li>
+                      </ul>
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Soft Skills</b>: High communication and organizational
+                      skills, analytical and strategic mindset,
+                      experience-driven work approach.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Hard Skills</b>: Strategic planning, establishing
+                      marketing from scratch, and designing comprehensive crypto
+                      marketing strategies.
+                    </li>
+                  </ul>
+                  <p>
+                    The diverse skills and collaborative spirit of the $MONK
+                    team ensure a well-rounded approach to developing a
+                    groundbreaking detective game that seamlessly integrates
+                    Web3 technologies, AI-driven storytelling, and vibrant
+                    community engagement.
+                  </p>
+                  <h2><b>Community and Partnerships</b></h2>
+                  <h3><b>Partnerships</b></h3>
+                  <p>
+                    Currently, $MONK has not yet established formal
+                    partnerships. However, our future goals include developing
+                    strategic collaborations across the industry, such as:
+                  </p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Technological Partnerships:</b> Collaborating with
+                      technology companies and startups to integrate advanced
+                      tools and emerging technologies that will enhance both the
+                      gameplay experience and the underlying systems.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Community and Influencer Collaborations:</b> Working
+                      with established communities and influencers to build a
+                      strong, supportive player base around the project and to
+                      promote the game.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Gaming and Entertainment Firms:</b> Forming strategic
+                      alliances with other companies in the gaming and
+                      entertainment sectors to expand opportunities and create
+                      interconnected communities.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Joint Development Ventures:</b> Partnering with other
+                      development teams or studios on future projects to expand
+                      the game world or develop innovative downloadable content
+                      (DLC) and features.
+                    </li>
+                  </ul>
+                  <p>
+                    These future partnerships aim to bring additional expertise,
+                    resources, and visibility to $MONK, enriching the overall
+                    project and fostering a more vibrant ecosystem.
+                  </p>
+                  <h3><b>Community Building Strategy</b></h3>
+                  <p>
+                    We’re building an exclusive, captivating detective universe
+                    where users don’t just engage – they become part of the
+                    story. It’s not about just dropping $MONKs; it’s about
+                    delivering an experience. Our tone? Bold, intriguing, and
+                    slightly mysterious, creating a vibe that encourages players
+                    to return, solve more puzzles, and proudly share their
+                    insider status.
+                  </p>
+                  <p><b>Key Goals:</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Create a Buzz:</b> Through puzzles, role-play, and
+                      creative challenges, we aim to generate excitement and
+                      discussion around $MONK.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Build a Tight-Knit Community:</b> We will foster a
+                      dedicated and enthusiastic community, particularly
+                      incentivizing early supporters with WhiteList (WL) spots
+                      and other exclusive benefits.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Establish $MONKs as Rare Treasures:</b> Our goal is to
+                      position our $MONKs not just as collectibles but as
+                      valuable, rare treasures that hold significance within the
+                      $MONK universe.
+                    </li>
+                  </ul>
+                  <p><b>Engagement Strategies:</b></p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Interactive Events:</b> Hosting puzzles, storytelling
+                      sessions, and interactive challenges that allow community
+                      members to shape parts of the narrative.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Exclusive Content and Role-Play:</b> Offering members
+                      unique opportunities to partake in role-playing events and
+                      narrative-building exercises, making them feel integral to
+                      the unfolding detective universe.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Regular Updates and Communication:</b> Maintaining
+                      active presence on social platforms like Twitter, Discord,
+                      and Instagram to share news, engage in conversations, and
+                      gather community feedback.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Incentives and Rewards:</b> Providing incentives such
+                      as early access, exclusive $MONKs, and special recognition
+                      for active community members to encourage participation
+                      and loyalty.
+                    </li>
+                  </ul>
+                  <p>
+                    By employing these strategies, $MONK aims to cultivate a
+                    passionate, engaged community that not only supports the
+                    project but also actively contributes to its evolving
+                    narrative and success.
+                  </p>
+                  <h2><b>Risks and Challenges</b></h2>
+                  <p>
+                    While $MONK is built on a promising foundation, several
+                    potential risks and challenges could impact the projects
+                    trajectory. Being aware of these factors allows the team to
+                    proactively address and mitigate issues as they arise. Key
+                    considerations include:
+                  </p>
+                  <h3><b>Technological Risks</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>AI and Blockchain Integration:</b> Combining AI-driven
+                      storytelling with blockchain-based $MONK mechanics is
+                      complex. There is a risk that technical challenges may
+                      arise during development, such as scaling AI algorithms
+                      efficiently or integrating smart contracts seamlessly with
+                      gameplay.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Security Vulnerabilities:</b> As with any blockchain
+                      project, smart contracts may be vulnerable to exploits or
+                      bugs. Ensuring robust security through thorough audits and
+                      continuous monitoring is crucial to protect user assets
+                      and maintain trust.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>System Scalability and Performance:</b> As the user
+                      base grows, the underlying infrastructure must handle
+                      increased load without performance degradation. Ensuring
+                      that the platform remains responsive and reliable under
+                      heavy demand is a significant technical challenge.
+                    </li>
+                  </ul>
+                  <h3><b>Regulatory Risks</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Evolving Legal Landscape:</b> The regulatory
+                      environment for cryptocurrencies and $MONKs is still
+                      evolving. Changes in legislation or enforcement could
+                      impact how $MONKs are issued, traded, or used within the
+                      game, posing legal and compliance challenges.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Data Privacy and Compliance:</b> As the game collects
+                      user data and interacts with blockchain networks,
+                      complying with international data protection regulations
+                      (like GDPR) and ensuring user privacy are ongoing
+                      concerns.
+                    </li>
+                  </ul>
+                  <h3><b>Economic and Market Risks</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Market Volatility:</b> The value of cryptocurrencies
+                      and $MONKs can be highly volatile. Fluctuations in market
+                      sentiment could affect player participation, $MONK
+                      pricing, and overall project funding.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Sustainability of the Economic Model:</b> While the
+                      initial focus is on $MONK sales and in-game purchases, the
+                      long-term sustainability of this model may be challenged
+                      by shifting market trends or unforeseen changes in user
+                      behavior.
+                    </li>
+                  </ul>
+                  <h3><b>User Adoption and Community Building</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Community Engagement:</b> Building and maintaining an
+                      active, engaged community is critical. Challenges include
+                      attracting new players, retaining existing ones, and
+                      continuously delivering content that meets or exceeds user
+                      expectations.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Competition:</b> The $MONK gaming space is increasingly
+                      competitive. $MONK must differentiate itself and
+                      consistently innovate to attract and retain players in an
+                      environment filled with new and emerging projects.
+                    </li>
+                  </ul>
+                  <h3><b>Strategic and Operational Challenges</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Partnership Development:</b> While future partnerships
+                      are planned, establishing meaningful collaborations can be
+                      challenging. Delays or difficulties in securing strategic
+                      partners may slow growth or limit access to valuable
+                      resources and expertise.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Resource Allocation:</b> Balancing the development of
+                      game features, community engagement, marketing, and
+                      technical infrastructure requires careful planning.
+                      Misallocation of resources or delays in key areas could
+                      impact overall project momentum.
+                    </li>
+                  </ul>
+                  <h3><b>Mitigation Strategies</b></h3>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Security Audits and Testing:</b> Conduct regular
+                      third-party audits of smart contracts and system
+                      architecture. Implement comprehensive testing procedures
+                      to catch and address vulnerabilities early.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Regulatory Compliance:</b> Stay informed about
+                      regulatory changes, engage legal experts, and design
+                      flexible systems that can adapt to new legal requirements.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Scalable Architecture:</b> Design the platform with
+                      scalability in mind, using modular systems and cloud
+                      services to handle growth and ensure performance under
+                      load.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Community Feedback Loop:</b> Establish robust channels
+                      for community feedback to quickly identify and address
+                      issues, adapt to user preferences, and foster a loyal user
+                      base.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Continuous Innovation:</b> Monitor market trends,
+                      technological advancements, and competitor activities to
+                      remain agile and adjust strategies as needed.
+                    </li>
+                  </ul>
+                  <p>
+                    By acknowledging these risks and challenges from the outset
+                    and implementing proactive mitigation strategies, $MONK aims
+                    to navigate uncertainties effectively, ensuring a resilient
+                    and sustainable path forward.
+                  </p>
+                  <h2><b>Summary and Future Outlook </b></h2>
+                  <p>
+                    $MONK’s primary aspiration is to develop the most engaging
+                    and enjoyable detective game possible. Our immediate focus
+                    is on perfecting the gameplay experience, ensuring that
+                    every interaction is immersive, challenging, and fun. As we
+                    achieve this goal, we will concentrate on building a
+                    connected and supportive community that shares a passion for
+                    mystery-solving, collaboration, and innovation.
+                  </p>
+                  <p>
+                    Looking ahead, our vision extends beyond a single game. With
+                    our exceptional team at the helm, we plan to explore new
+                    ideas for games and projects within the Web3 ecosystem. By
+                    leveraging our collective expertise in blockchain, AI, and
+                    game development, we aim to expand our portfolio with
+                    innovative, community-driven projects that push the
+                    boundaries of interactive storytelling and decentralized
+                    gaming.
+                  </p>
+                  <p>Our long-term strategy includes:</p>
+                  <ul>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Continuous Game Improvement</b>: Regular updates,
+                      feature enhancements, and story expansions to keep $MONK
+                      fresh and engaging.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Community Engagement</b>: Fostering a vibrant community
+                      through events, feedback loops, and ongoing support,
+                      ensuring players feel heard and valued.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Exploration of New Projects</b>: Brainstorming and
+                      developing additional games and Web3 initiatives, building
+                      on the success of $MONK and the strength of our team.
+                    </li>
+                    <li style="font-weight: 400" aria-level="1">
+                      <b>Adaptation and Innovation</b>: Staying at the forefront
+                      of technological advancements in AI, blockchain, and
+                      gaming to integrate cutting-edge features that enhance
+                      gameplay and community interaction.
+                    </li>
+                  </ul>
+                  <p>
+                    By committing to excellence in game design, nurturing a
+                    passionate community, and continuously exploring new
+                    frontiers, $MONK is poised for a promising future. Our
+                    journey is just beginning, and with creativity,
+                    collaboration, and innovation, the possibilities are endless
+                    – making the future of $MONK and our upcoming projects truly
+                    exciting.
+                  </p>
+                  <h2><b>Conclusion</b></h2>
+                  <p>
+                    $MONK represents a transformative approach to $MONK
+                    gaming—prioritizing genuine gameplay, community engagement,
+                    and responsible integration of emerging technologies. By
+                    leveraging advanced AI to create infinite, personalized
+                    detective narratives and integrating $MONKs in meaningful
+                    ways, we aim to restore trust and excitement in the $MONK
+                    space.
+                  </p>
+                  <p>
+                    Our carefully planned roadmap, supported by a diverse team
+                    of experts, outlines a clear path from community building
+                    and $MONK drops to the full release of a dynamic, immersive
+                    game. While we acknowledge the challenges ahead—from
+                    technical integration to market volatility—our proactive
+                    strategies and commitment to continuous innovation position
+                    $MONK for sustainable success.
+                  </p>
+                  <p>
+                    As we move forward, our focus remains on perfecting the
+                    detective experience, nurturing a dedicated community, and
+                    exploring new frontiers in Web3 entertainment. $MONK is not
+                    just about solving mysteries; its about creating a vibrant
+                    ecosystem where players, technology, and storytelling
+                    converge to redefine interactive gaming.
+                  </p>
+                  <p>
+                    Thank you for joining us on this journey—together, we will
+                    shape the future of detective gaming, one case at a time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main-area-end -->
+
+    <script>
+      jQuery(document).ready(function ($) {
+        /*=============================================
+                =    		DarkMode Active  	      =
+            =============================================*/
+        function tg_theme_toggler() {
+          $(".modeSwitch").on("change", function () {
+            toggleTheme();
+          });
+
+          // set toggle theme scheme
+          function tg_set_scheme(tg_theme) {
+            localStorage.setItem("tg_theme_scheme", tg_theme);
+            document.documentElement.setAttribute("tg-theme", tg_theme);
+          }
+
+          // toggle theme scheme
+          function toggleTheme() {
+            if (localStorage.getItem("tg_theme_scheme") === "dark") {
+              tg_set_scheme("light");
+            } else {
+              tg_set_scheme("dark");
+            }
+          }
+
+          // set the first theme scheme
+          function tg_init_theme() {
+            if (localStorage.getItem("tg_theme_scheme") === "dark") {
+              tg_set_scheme("dark");
+              document.querySelector(".modeSwitch").checked = true;
+            } else {
+              tg_set_scheme("light");
+              document.querySelector(".modeSwitch").checked = false;
+            }
+          }
+          tg_init_theme();
+        }
+        if ($(".modeSwitch").length > 0) {
+          tg_theme_toggler();
+        }
+      });
+    </script>
+
+    <!-- footer-area -->
+    <footer class="footer-area footer-style-default">
+      <div class="copyright__wrapper-default">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="copyright__text">
+                <p>Copyright © 2025 $MONK. All Rights Reserved.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="copyright__menu">
+                <ul class="list-wrap">
+                  <li class="backTop">
+                    <a
+                      href="javascript:void(0)"
+                      class="scroll-to-target"
+                      data-target="html"
+                      ><i class="flaticon-arrowhead-up"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area-end -->
+    <script type="speculationrules">
+      {
+        "prefetch": [
+          {
+            "source": "document",
+            "where": {
+              "and": [
+                { "href_matches": "\/*" },
+                {
+                  "not": {
+                    "href_matches": [
+                      "\/wp-*.php",
+                      "\/wp-admin\/*",
+                      "\/wp-content\/uploads\/*",
+                      "\/wp-content\/*",
+                      "\/wp-content\/plugins\/*",
+                      "\/wp-content\/themes\/nerko\/*",
+                      "\/*\\?(.+)"
+                    ]
+                  }
+                },
+                { "not": { "selector_matches": "a[rel~=\"nofollow\"]" } },
+                {
+                  "not": { "selector_matches": ".no-prefetch, .no-prefetch a" }
+                }
+              ]
+            },
+            "eagerness": "conservative"
+          }
+        ]
+      }
+    </script>
+    <script type="text/javascript">
+      const lazyloadRunObserver = () => {
+        const lazyloadBackgrounds = document.querySelectorAll(
+          `.e-con.e-parent:not(.e-lazyloaded)`
+        );
+        const lazyloadBackgroundObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                let lazyloadBackground = entry.target;
+                if (lazyloadBackground) {
+                  lazyloadBackground.classList.add("e-lazyloaded");
+                }
+                lazyloadBackgroundObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: "200px 0px 200px 0px" }
+        );
+        lazyloadBackgrounds.forEach((lazyloadBackground) => {
+          lazyloadBackgroundObserver.observe(lazyloadBackground);
+        });
+      };
+      const events = ["DOMContentLoaded", "elementor/lazyload/observe"];
+      events.forEach((event) => {
+        document.addEventListener(event, lazyloadRunObserver);
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/dist/hooks.min_ver%3D4d63a3d491d11ffd8ac6.js"
+      id="wp-hooks-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-includes/js/dist/i18n.min_ver%3D5e580eb46a90c2b997e6.js"
+      id="wp-i18n-js"
+    ></script>
+    <script type="text/javascript" id="wp-i18n-js-after">
+      /* <![CDATA[ */
+      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="../wp-content/plugins/contact-form-7/includes/swv/js/index_ver%3D6.0.6.js"
+      id="swv-js"
+    ></script>
+    <script type="text/javascript" id="contact-form-7-js-before">
+      /* <![CDATA[ */
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/crimechain.ai\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+        cached: 1,
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="../wp-content/plugins/contact-form-7/includes/js/index_ver%3D6.0.6.js"
+      id="contact-form-7-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/bootstrap.min_ver%3D6.8.1.js"
+      id="bootstrap-bundle-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/swiper-bundle.min_ver%3D6.8.1.js"
+      id="swiper-bundle-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/anime.min_ver%3D6.8.1.js"
+      id="anime-main-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/anime-helper_ver%3D6.8.1.js"
+      id="anime-helper-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/anime-helper-defined-timelines_ver%3D6.8.1.js"
+      id="anime-defined-timelines-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/jquery.easing_ver%3D6.8.1.js"
+      id="jquery-easing-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/main_ver%3D6.8.1.js"
+      id="nerko-main-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/themes/nerko/assets/js/ccm.iife_ver%3D1.0.0.js"
+      id="ccm-script-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-21cf1c445673c649970d.js"
+      id="googlesitekit-events-provider-contact-form-7-js"
+      defer=""
+    ></script>
+    <script
+      type="text/javascript"
+      defer=""
+      src="../wp-content/plugins/mailchimp-for-wp/assets/js/forms_ver%3D4.10.2.js"
+      id="mc4wp-forms-api-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-mailchimp-7920d200a07d3bcd60bb.js"
+      id="googlesitekit-events-provider-mailchimp-js"
+      defer=""
+    ></script>
+  </body>
+</html>
+<!-- Cache served by breeze CACHE (Desktop) - Last modified: Thu, 22 May 2025 07:10:43 GMT --><!-- plugin=object-cache-pro client=phpredis metric#hits=1542 metric#misses=72 metric#hit-ratio=95.5 metric#bytes=1398208 metric#prefetches=0 metric#store-reads=78 metric#store-writes=55 metric#store-hits=24 metric#store-misses=66 metric#sql-queries=43 metric#ms-total=635.38 metric#ms-cache=22.29 metric#ms-cache-avg=0.1689 metric#ms-cache-ratio=3.5 sample#redis-hits=429089586 sample#redis-misses=778473101 sample#redis-hit-ratio=35.5 sample#redis-ops-per-sec=69 sample#redis-evicted-keys=2005665 sample#redis-used-memory=207398528 sample#redis-used-memory-rss=118157312 sample#redis-memory-fragmentation-ratio=0.6 sample#redis-connected-clients=1 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=136 -->
